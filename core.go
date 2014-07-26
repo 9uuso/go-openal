@@ -12,7 +12,7 @@ package openal
 // to grok them. So there's a lot more C code here than I would
 // like...
 
-#include <AL/al.h>
+#include <OpenAL/al.h>
 
 // For convenience we offer "singular" versions of the following
 // calls as well, which require different wrappers if we want to
