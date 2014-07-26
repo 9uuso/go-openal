@@ -1,6 +1,6 @@
 package main
 
-import "openal"
+import "github.com/9uuso/go-openal"
 import "time"
 import "fmt"
 

@@ -1,7 +1,7 @@
 package main
 
-import "openal/al"
-import "openal/alc"
+import "github.com/9uuso/go-openal/al"
+import "github.com/9uuso/go-openal/alc"
 
 import "time"
 import "fmt"

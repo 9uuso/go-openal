@@ -26,7 +26,7 @@ package alc
 import "C"
 import "unsafe"
 
-import "openal/al"
+import "github.com/9uuso/go-openal/al"
 
 const (
 	alcFalse = 0;
