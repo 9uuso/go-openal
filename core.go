@@ -60,7 +60,7 @@ int walGetError(void) {
 }
 //AL_API void AL_APIENTRY alGetSourcei( ALuint sid,  ALenum param, ALint* value );
 
-#include <AL/alc.h>
+#include <OpenAL/alc.h>
 
 ALCdevice *walcOpenDevice(const char *devicename) {
 	return alcOpenDevice(devicename);
@@ -110,8 +110,8 @@ int walcGetInteger(ALCdevice *device, int param) {
 	return result;
 }
 
-//#include <AL/alext.h>
-#include <AL/alut.h>
+//#include <OpenAL/alext.h>
+#include <OpenAL/alut.h>
 
 // TODO: alutInit(int *argcp, char **argv)
 int walutInit(void) {
