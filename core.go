@@ -110,8 +110,8 @@ int walcGetInteger(ALCdevice *device, int param) {
 	return result;
 }
 
-//#include <OpenAL/alext.h>
-#include <AL/alut.h>
+#include <OpenAL/alext.h>
+//#include <AL/alut.h>
 
 // TODO: alutInit(int *argcp, char **argv)
 int walutInit(void) {
